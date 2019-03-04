@@ -1,8 +1,7 @@
 # This script analyses the difference between the calculation of CRC32-POSIX hashes using Python and JavaScript.
 #
 # The reference for calculation in JavaScript is:
-#
-# crc32 = CRC.default("CRC32_POSIX");
+## crc32 = CRC.default("CRC32_POSIX");
 # ...
 # crc32.compute(Buffer.from(str,"ascii")).toString(16);
 
